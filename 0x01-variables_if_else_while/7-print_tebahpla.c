@@ -9,7 +9,7 @@ int main(void)
 {
 	char ab;
 
-	for (ab = 'z'; ab >= 'a'; a--)
+	for (ab = 'z'; ab >= 'a'; ab--)
 		printf(ab);
 
 	printf('\n');
