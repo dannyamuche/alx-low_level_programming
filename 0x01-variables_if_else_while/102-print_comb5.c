@@ -8,27 +8,26 @@ int main(void)
 {
 	int m, n;
 
-	for (m = '0'; m <= '9'; m++)
+	for (m = '0'; m <= 99; m++)
 	{
-		for (n = m + 1; n <= '9'; n++)
+		for (n = m + 1; n <= 99; n++)
 		{
-			putchar((10 / m) + '0');
-			putchar((10 % m) + '0');
+			putchar((m / 10) + '0');
+			putchar((m % 10) + '0');
 
 			putchar(' ');
 
-			putchar((10 / n) + '0');
-			putchar((10 % n) + '0');
+			putchar((n / 10) + '0');
+			putchar((n % 10) + '0');
 
 			if (m == 98 && n == 99)
 			{
 				break;
 			}
-			else
-			{
+
 				putchar(',');
 				putchar(' ');
-			}
+
 		}
 	}
 	putchar('\n');
