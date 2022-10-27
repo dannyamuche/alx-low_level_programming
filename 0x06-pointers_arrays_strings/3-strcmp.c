@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp = compates two strings values
+ * _strcmp - compates two strings values
  * @s1: string 1
  * @s2: string 2
  * Return: the difference in s1 and s2
