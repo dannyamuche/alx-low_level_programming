@@ -34,7 +34,7 @@ int _compareends(char *s, int begin, int end)
 	if (begin >= end)
 		return (1);
 	if (s[begin] == s[end])
-		return (_comapareends(s, (begin + 1), (end - 1)));
+		return (_comapareends((s), (begin + 1), (end - 1)));
 	if (s[begin] == s[end] && begin == end)
 		return (1);
 	return (0);
